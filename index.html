@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOK API</title>
+
+</head>
+
+<body>
+        <form class="lokForm" onsubmit="lokFormRequest(event)">
+            <label for="landId">
+                Type the LOK Land Id
+            </label for="landId">
+            <input type="text" id="landId" name="landId" />
+            <div>
+                <label for="startDate">Start date: </label>
+                <input type="date" id="startDate" value="startDate">
+            </div>
+            <div>
+                <label for="end">End date: </label>
+                <input type="date" id="endDate" value="endDate">
+            </div>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+        <div class="results">
+            
+        </div>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
