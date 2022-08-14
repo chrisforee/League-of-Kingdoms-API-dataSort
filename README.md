@@ -30,5 +30,15 @@ Contributions are welcome.
 
 ### Project Status
 
-In progress.
+Client side rendering and buildout - In progress.
+
+Connection to MySql through Python/Flask - not started.
+
+Connection to MySql through Spring/JSTL/JSP - not started.
+
+Login/Registration - not started.
+
+Live deployment - not started.
+
+
 
