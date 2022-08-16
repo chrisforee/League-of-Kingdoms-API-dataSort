@@ -2,15 +2,31 @@
 
 ## Description
 
-HTML/CSS project to import and sort land contributions made by [League of Kingdoms](https://www.leagueofkingdoms.com/) players through LOK API
+Project to import and sort land contributions made by [League of Kingdoms](https://www.leagueofkingdoms.com/) players through LOK API
 
 ### Running the project
 
 Client needs a land id and to select a date range to satisfy the API params.
 
+Environments: 
+
+[Visual Studio Code](https://code.visualstudio.com/download) 
+
+[MySql](https://www.mysql.com/downloads/)
+
+[Spring Boot Tools](https://spring.io/tools)
+
 Current API URL as of 8/13/2022: https://api-lok-live.leagueofkingdoms.com/api/stat/land/contribution?from=${startDate}&to=${endDate}&landId=${landId}
 
-Testing and refactoring in [Visual Studio Code](https://code.visualstudio.com/download) through local host.
+Requires Apache Maven installation - install is OS dependent.
+
+Testing:
+
+Testing and refactoring through local host for HTML/CSS client side.
+
+Testing through MySql for Python Login/Registration.
+
+Testing through Spring Boot and MySql for JAVA Login/Registration.
 
 Verifying API import results through [POSTMAN](https://www.postman.com/downloads/).
 
@@ -32,11 +48,11 @@ Contributions are welcome.
 
 Client side rendering and buildout - In progress.
 
+Login/Registration - not started.
+
 Connection to MySql through Python/Flask - not started.
 
 Connection to MySql through Spring/JSTL/JSP - not started.
-
-Login/Registration - not started.
 
 Live deployment - not started.
 
