@@ -2,7 +2,7 @@
 
 ## Description
 
-Project to import and sort land contributions made by [League of Kingdoms](https://www.leagueofkingdoms.com/) players through LOK API
+Project to import and sort land contributions made by [League of Kingdoms](https://www.leagueofkingdoms.com/) players using LOK API requested data
 
 ### Running the project
 
